@@ -1,2 +1,18 @@
-prueba
-hola
+visual encodings
+graphical perception
+Protovis
+scalable vector graphics
+quantile-quantile (or Q-Q) plots
+scatter plot matrix
+brushing-and-linking
+Parallel coordinates
+flow map
+node-link diagram
+dendrogram 
+Adjacency diagrams
+Enclosure diagrams
+circle-packing layouts
+force-directed layouts
+arc diagram
+seriation
+adjacency matrix
