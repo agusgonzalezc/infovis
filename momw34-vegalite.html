@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@4.2.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@3.0.0-rc3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@3.18.2"></script>
+</head>
+<body>
+
+  <div id="vis"></div>
+
+  <script>
+    var vlspec = {"$schema":"https://vega.github.io/schema/vega-lite/v2.json","title":"entry_level_jobs_on_linkedin_require_3_years_of_experience","width":700,"height":400,"autosize":{"type":"fit","contains":"padding"},"mark":{"type":"bar"},"encoding":{"x":{"field":"entry_level_jobs_on_linkedin_require_3_years_of_experience","type":"quantitative","scale":{"type":"linear","zero":true}},"y":{"field":"job","type":"nominal","sort":{"field":"entry_level_jobs_on_linkedin_require_3_years_of_experience","op":"sum","order":"descending"},"scale":{"type":"linear","zero":true}}},"data":{url: " https://raw.githubusercontent.com/agusgonzalezc/infovis/gh-pages/momw34-datos.csv"},"config":{"background":"#ffffff","padding":20}};
+    vegaEmbed("div#vis", vlspec);
+  </script>
+</body>
+</html>
