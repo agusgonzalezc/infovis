@@ -1,4 +1,4 @@
-# TRABAJO PRACTICO PERSONAL DATA
+# Datos en Spotify
 
 [raw data](https://agusgonzalezc.github.io/infovis/rawdata.json)
 
