@@ -1,8 +1,2 @@
 # Datos en Spotify
-La idea de este trabajo es analizar y visualizar toda la informacion que recolecta Spotify sobre mi cuenta desde agosto del 2020 a agosto del 2021. Para poder acceder a estos datos, se los debe solicitar y luego ellos 
-
-[raw data](https://agusgonzalezc.github.io/infovis/rawdata.json)
-
-datos
-
-[google doc](https://docs.google.com/document/d/1XwPuxlBoQ426f5efm7pnfwX4X8gDx3cdINsXw9jNpMU/edit?usp=sharing)
+La idea de este trabajo es analizar y visualizar toda la informacion que recolecta Spotify sobre mi cuenta desde agosto del 2020 hasta agosto del 2021. Para poder acceder a estos datos, primero se los debe solicitar a la empresa para que luego ellos te envien una carpeta con varios archivos json. Solo voy a utilizar este archivo que contiene toda mi [raw data](https://agusgonzalezc.github.io/infovis/pdata/rawdata.json) ya que posee el nombre del artista, el ombre de la canción, cuantos milisegundos se reprodujo una canción y por ultimo el dia y hora en los que se finalizó la reproducción. Para poder hacer un analisis mas profundo, agregue dos atributos (pais y genero del artista) a mis datos en un archivo csv que se encuentra [aqui](https://agusgonzalezc.github.io/infovis/pdata/datos.csv). Tambien cree otro [archivo csv](https://agusgonzalezc.github.io/infovis/pdata/paises.csv) donde para cada pais, sume la cantidad de segundos escuchados en cada mes. Mi trabajo final con todas las visualizacione se encuentra [aqui](https://agusgonzalezc.github.io/infovis/pdata/datosenspotify.html).
